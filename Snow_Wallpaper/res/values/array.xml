@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="bgnamekey">
+   <item>雪花飘飘</item>
+   <item>圣诞老人</item>
+   <item>银色世界</item>
+   <item>浪漫满屋</item>
+   <item>两心依偎</item>
+</string-array>
+<string-array name="bgnamevalue">
+   <item>0</item>
+   <item>1</item>
+   <item>2</item>
+   <item>3</item>
+   <item>4</item>
+</string-array>
+<string-array name="SnowNumbers">
+   <item>64</item>
+   <item>100</item>
+   <item>144</item>
+</string-array>
+<string-array name="SnowNumbersvalue">
+   <item>8</item>
+   <item>10</item>
+   <item>12</item>
+</string-array>
+</resources>

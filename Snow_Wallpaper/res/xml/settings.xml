@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+	<ListPreference
+		
+		android:title="背景图片"
+		android:summary="选择背景图片."
+		android:key="bgdrawable"
+		android:defaultValue="0"
+		android:entries="@array/bgnamekey"
+		android:entryValues="@array/bgnamevalue" />
+	<ListPreference
+		
+		android:title="雪花密度"
+		android:summary="选择雪花数量."
+		android:key="snownumbers"
+		android:defaultValue="0"
+		android:entries="@array/SnowNumbers"
+		android:entryValues="@array/SnowNumbersvalue" />
+</PreferenceScreen>
