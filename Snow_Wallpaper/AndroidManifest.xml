@@ -39,10 +39,10 @@
 			android:configChanges="keyboardHidden|orientation" />
 		<meta-data
 			android:name="WAPS_ID"
-			android:value="93c26f260eb4aea274be3672b0b3c0cb" />
+			android:value="9sdsadfsdfasdfasdfasdfasdf" />
 		<meta-data
 			android:name="WAPS_PID"
-			android:value="WAPS" />
+			android:value="sfasd" />
 	</application>
 	<uses-permission
 		android:name="android.permission.INTERNET" />
