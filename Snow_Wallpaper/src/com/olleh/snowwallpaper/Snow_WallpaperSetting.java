@@ -12,10 +12,8 @@ import android.preference.PreferenceActivity;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.waps.AppConnect;
-import com.waps.UpdatePointsNotifier;
 
-public class Snow_WallpaperSetting extends PreferenceActivity implements SharedPreferences.OnSharedPreferenceChangeListener, Preference.OnPreferenceClickListener, UpdatePointsNotifier {
+public class Snow_WallpaperSetting extends PreferenceActivity implements SharedPreferences.OnSharedPreferenceChangeListener, Preference.OnPreferenceClickListener {
 	/** Called when the activity is first created. */
 	private ProgressDialog pd;
 
@@ -26,7 +24,6 @@ public class Snow_WallpaperSetting extends PreferenceActivity implements SharedP
 		getPreferenceManager().setSharedPreferencesName(SnowWallpaper.SHARED_PREFS_NAME);
 		addPreferencesFromResource(R.xml.settings);
 		getPreferenceManager().getSharedPreferences().registerOnSharedPreferenceChangeListener(this);
-		AppConnect.getInstance(this).getPoints(this);
 //		pd.setCancelable(false);
 //		pd = new ProgressDialog(this);
 //		pd.setMessage("请稍后,正在获得您的积分...");
@@ -110,17 +107,5 @@ public class Snow_WallpaperSetting extends PreferenceActivity implements SharedP
 //		}
 //	};
 
-	@Override
-	public void getUpdatePoints(String arg0, int arg1) {
-//		Message msg = new Message();
-//		msg.what = HAN_SUCCESS;
-//		msg.arg1 = arg1;
-//		mHandler.sendMessage(msg);
-	}
-//
-	@Override
-	public void getUpdatePointsFailed(String arg0) {
-//		mHandler.sendEmptyMessage(HAN_FAILED);
-	}
 
 }
